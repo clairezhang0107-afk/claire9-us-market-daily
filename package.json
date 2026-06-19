@@ -1,0 +1,9 @@
+{
+  "name": "claire9-us-market-daily",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m http.server 5182",
+    "check": "node --check app.js"
+  }
+}

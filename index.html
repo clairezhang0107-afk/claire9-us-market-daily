@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>美股收盘日报</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>美股收盘日报</span>
+      </a>
+      <nav class="nav" aria-label="主导航">
+        <a href="#/">今日</a>
+        <a href="#/archive">归档</a>
+        <a href="#/calendar">日历</a>
+      </nav>
+    </header>
+
+    <main id="app" class="app" aria-live="polite"></main>
+
+    <template id="home-template">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Daily U.S. Market Close</p>
+          <h1>昨夜美股发生了什么</h1>
+          <p class="hero-copy">自动汇总指数、利率、商品、板块轮动、个股异动和次日交易关注点。</p>
+        </div>
+        <div class="market-tape" aria-label="市场概览"></div>
+      </section>
+      <section class="layout">
+        <article class="report-panel"></article>
+        <aside class="side-panel"></aside>
+      </section>
+    </template>
+
+    <template id="archive-template">
+      <section class="page-head">
+        <div>
+          <p class="eyebrow">Archive</p>
+          <h1>历史日报</h1>
+        </div>
+        <input id="archive-search" class="search" type="search" placeholder="搜索日期、主题、个股" />
+      </section>
+      <section id="archive-list" class="archive-list"></section>
+    </template>
+
+    <template id="calendar-template">
+      <section class="page-head">
+        <div>
+          <p class="eyebrow">Calendar</p>
+          <h1>未来关注</h1>
+        </div>
+      </section>
+      <section id="calendar-list" class="calendar-grid"></section>
+    </template>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
