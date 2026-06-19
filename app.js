@@ -1,4 +1,4 @@
-const DATA_URL = "./data/reports.json";
+const DATA_URL = "./reports.json";
 
 const app = document.querySelector("#app");
 const homeTemplate = document.querySelector("#home-template");
