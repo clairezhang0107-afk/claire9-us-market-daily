@@ -1,4 +1,4 @@
-const DATA_URL = "./reports.json";
+const DATA_URLS = ["./data/reports.json", "./reports.json"];
 
 const app = document.querySelector("#app");
 const homeTemplate = document.querySelector("#home-template");
@@ -194,7 +194,14 @@ function renderRoute() {
 }
 
 async function init() {
-  const response = await fetch(DATA_URL);
+  let response;
+  for (const url of DATA_URLS) {
+    response = await fetch(url);
+    if (response.ok) break;
+  }
+  if (!response || !response.ok) {
+    throw new Error("Report data unavailable");
+  }
   const data = await response.json();
   state.reports = data.reports.sort((a, b) => b.date.localeCompare(a.date));
   renderRoute();
