@@ -1,6 +1,626 @@
 {
   "reports": [
     {
+      "date": "2026-06-22",
+      "updatedAt": "2026-06-23 04:36 北京时间",
+      "marketSession": "2026-06-22 美股现金收盘；北京时间2026-06-23盘后/收盘初版",
+      "status": "盘后/收盘初版",
+      "title": "Dow独强、Nasdaq回落；油价大跌但利率压制Big Tech",
+      "summary": "6月22日美股收盘分化：Dow +0.3% 至 51,712.71，S&P 500 -0.4% 至 7,472.79，Nasdaq -1.3% 至 26,166.60，Russell 2000 +0.8% 至 3,004.40。油价因美伊谈判进展和美国对伊朗原油制裁临时豁免而大跌，WTI 8月合约 -2.6% 至73.86美元、Brent -3.2% 至77.52美元，但美债收益率反而上行，2Y升至约4.23%、10Y约4.48%，市场重新交易Fed加息风险。资金没有离开AI，但从“七巨头一起涨”切到更细的AI瓶颈层：存储/HBM、半导体设备、晶圆/先进封装、ASIC/互连仍被关注，云服务和软件应用相对承压。",
+      "takeaway": "今日市场状态：指数分化、Big Tech拖累Nasdaq；油价回落缓解通胀尾部风险，但短端利率上行压制高估值成长。AI链条不是全面一条龙上涨，而是“存储/HBM、设备、先进封装、ASIC/互连、电力冷却偏热，云服务/软件应用和部分巨头走弱”的分层轮动。",
+      "tags": [
+        "盘后初版",
+        "Nasdaq回落",
+        "Dow独强",
+        "油价下跌",
+        "美债收益率",
+        "Fed加息预期",
+        "AI产业链分层",
+        "HBM",
+        "半导体设备",
+        "先进封装",
+        "ASIC",
+        "AI电力",
+        "软件走弱",
+        "Big Tech分化"
+      ],
+      "risks": [
+        "10Y美债接近4.50%，2Y升至2025年2月以来最高结算区间，若继续上行会压制QQQ、IGV和高估值AI应用。",
+        "油价下跌来自地缘缓和和政策豁免，若谈判反复或霍尔木兹风险重燃，通胀预期可能快速回升。",
+        "Nasdaq由Alphabet、Amazon、Broadcom等大盘科技拖累，说明AI行情内部已经不是无差别risk-on。",
+        "半导体指数年内涨幅巨大，存储、Intel、ARM、MRVL等弹性方向短线拥挤度升高。",
+        "本周PCE和Micron财报会同时检验“利率压力”和“AI存储需求”两条主线。"
+      ],
+      "indices": [
+        {
+          "name": "S&P 500",
+          "close": "7,472.79",
+          "change": "-0.4%"
+        },
+        {
+          "name": "Dow Jones",
+          "close": "51,712.71",
+          "change": "+0.3%"
+        },
+        {
+          "name": "Nasdaq",
+          "close": "26,166.60",
+          "change": "-1.3%"
+        },
+        {
+          "name": "Russell 2000",
+          "close": "3,004.40",
+          "change": "+0.8%"
+        },
+        {
+          "name": "WTI原油",
+          "close": "$73.86",
+          "change": "-2.6%"
+        },
+        {
+          "name": "10Y美债",
+          "close": "约4.48%",
+          "change": "+3.4bp"
+        }
+      ],
+      "sections": [
+        {
+          "title": "0. 今日一句话总结",
+          "items": [
+            "美股6月22日不是全面下跌，而是典型分化：Dow和小盘上涨，S&P小跌，Nasdaq明显回落。",
+            "主要矛盾是“油价下跌利好通胀预期”与“美债收益率上行压制成长股”同时存在；市场最后更惩罚Big Tech和高估值成长。",
+            "资金不是risk-off到防御板块，而是从七巨头和云/软件，切向更有订单瓶颈逻辑的AI硬件细分层。",
+            "今日市场状态：Dow独强、Nasdaq承压；AI硬件分层轮动，软件应用和部分巨头走弱。"
+          ]
+        },
+        {
+          "title": "1. 大盘表现总览",
+          "table": {
+            "headers": [
+              "指数/资产",
+              "收盘/最新",
+              "涨跌",
+              "技术状态",
+              "解读"
+            ],
+            "rows": [
+              [
+                "Dow Jones",
+                "51,712.71",
+                "+0.3%",
+                "连续第二日上涨",
+                "传统蓝筹相对抗跌，避开了部分Big Tech压力。"
+              ],
+              [
+                "S&P 500",
+                "7,472.79",
+                "-0.4%",
+                "低于近期高点约1.8%",
+                "指数仍在高位，但权重科技拖累。"
+              ],
+              [
+                "Nasdaq Composite",
+                "26,166.60",
+                "-1.3%",
+                "明显弱于标普",
+                "Alphabet、Amazon、Broadcom等拖累科技情绪。"
+              ],
+              [
+                "Russell 2000",
+                "3,004.40",
+                "+0.8%",
+                "跑赢大盘",
+                "小盘参与度改善，说明不是单纯全面避险。"
+              ],
+              [
+                "SOX半导体指数",
+                "暂无可靠收盘点位",
+                "盘中一度+2%+",
+                "强于Nasdaq但收盘需二次核验",
+                "半导体仍是AI链最强温度计之一。"
+              ],
+              [
+                "VIX",
+                "暂无可靠收盘点位",
+                "暂无可靠数据",
+                "未见系统性恐慌证据",
+                "美股下跌更偏结构性，而非全面恐慌。"
+              ],
+              [
+                "WTI原油",
+                "$73.86",
+                "-2.6%",
+                "创伊朗战争以来最低收盘区间",
+                "地缘缓和降低能源通胀压力。"
+              ],
+              [
+                "Brent原油",
+                "$77.52",
+                "-3.2%",
+                "跌破80美元",
+                "缓解通胀担忧，但也压制能源股。"
+              ]
+            ]
+          },
+          "items": [
+            "Nasdaq显著跑输S&P，说明大盘科技不是今天主线。",
+            "Russell 2000跑赢，说明资金没有完全撤出风险资产。",
+            "S&P 500较近期历史高点低约1.8%，尚不是趋势破坏，但高估值科技承压明显。"
+          ]
+        },
+        {
+          "title": "2. 盘中走势复盘",
+          "table": {
+            "headers": [
+              "阶段",
+              "市场表现",
+              "核心原因"
+            ],
+            "rows": [
+              [
+                "盘前",
+                "油价走低、股指期货分化",
+                "美伊和平谈判出现进展，美国财政部对伊朗原油出口作出60天豁免，能源通胀担忧缓和。"
+              ],
+              [
+                "开盘后",
+                "半导体一度强于大盘，Nasdaq随后转弱",
+                "MarketWatch称SOX盘初约+2%，但Magnificent Seven拖累Nasdaq。"
+              ],
+              [
+                "午盘",
+                "Dow和小盘相对抗跌，成长股继续承压",
+                "美债收益率上行，2Y升至约4.23%，市场定价年底加息风险。"
+              ],
+              [
+                "尾盘",
+                "Dow收涨，S&P小跌，Nasdaq跌幅扩大",
+                "Big Tech弱势压过油价下跌利好。"
+              ],
+              [
+                "盘后/本周催化",
+                "重点转向PCE、Micron、FedEx等财报",
+                "市场将验证通胀、AI存储需求和企业需求。"
+              ]
+            ]
+          },
+          "items": [
+            "今天更像rotation：从部分大盘科技/软件流出，流向小盘、部分半导体瓶颈和事件驱动个股。",
+            "油价下跌本应利好成长股，但收益率上行抵消了估值利好。"
+          ]
+        },
+        {
+          "title": "3. 宏观环境：利率、油价、Fed预期",
+          "table": {
+            "headers": [
+              "变量",
+              "最新/变化",
+              "市场含义"
+            ],
+            "rows": [
+              [
+                "2Y美债",
+                "约4.230%，MarketWatch称为2025年2月20日以来最高结算",
+                "短端反映Fed加息预期升温，对软件和高估值成长不友好。"
+              ],
+              [
+                "10Y美债",
+                "约4.484%，Tradeweb/Barron’s口径日升约3.4bp",
+                "接近4.50%关键位，继续上行会压制QQQ/IGV。"
+              ],
+              [
+                "收益率曲线",
+                "2Y上行更明显，曲线趋平",
+                "市场从油价缓和转向担心Fed鹰派。"
+              ],
+              [
+                "Fed预期",
+                "WSJ称BofA转为预计2026年加息三次；市场对三次加息预期从3%升至19%",
+                "主流不是马上加息，但“无降息+可能加息”正在重定价。"
+              ],
+              [
+                "WTI/Brent",
+                "WTI $73.86，Brent $77.52",
+                "油价下跌缓解通胀，但能源股承压。"
+              ],
+              [
+                "本周关键数据",
+                "PCE定于本周公布",
+                "若PCE偏热，利率压力可能覆盖油价下跌利好。"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "4. 当前热点板块与走弱板块总览",
+          "body": "今天不能只看“科技涨/跌”，要拆成更细的资金层级。强的是AI瓶颈和事件驱动，弱的是部分巨头、云/软件以及能源。",
+          "table": {
+            "headers": [
+              "类别",
+              "细分方向",
+              "强弱",
+              "代表公司/ETF",
+              "原因"
+            ],
+            "rows": [
+              [
+                "最热",
+                "存储/HBM",
+                "强",
+                "MU、WDC、STX",
+                "Micron财报前，市场继续押注HBM、DRAM、数据中心存储涨价和利润弹性。"
+              ],
+              [
+                "最热",
+                "半导体设备/先进封装",
+                "强",
+                "ASML、AMAT、LRCX、KLAC、AMKR、TSM",
+                "AI扩产、HBM和先进封装需求支撑设备链。"
+              ],
+              [
+                "偏热",
+                "AI芯片/ASIC/互连",
+                "分化偏强",
+                "NVDA、AMD、AVGO、MRVL、ARM、QCOM",
+                "AI核心链仍在，但Broadcom等大权重回落显示拥挤度升高。"
+              ],
+              [
+                "偏热",
+                "AI电力/冷却/基础设施",
+                "强弱分化",
+                "VRT、GEV、ETN、CEG、VST、PWR",
+                "冷却、水耗、电力仍是AI数据中心扩张约束，主题热度保持。"
+              ],
+              [
+                "偏强",
+                "小盘/等权部分",
+                "改善",
+                "Russell 2000、IWM",
+                "Russell 2000上涨0.8%，说明资金没有全面risk-off。"
+              ],
+              [
+                "走弱",
+                "Big Tech/七巨头部分",
+                "弱",
+                "GOOGL、AMZN、AVGO、MSFT、META等",
+                "Nasdaq被大盘科技拖累，利率压力和轮动造成资金分流。"
+              ],
+              [
+                "走弱",
+                "软件应用/SaaS/AI Agent",
+                "偏弱",
+                "IGV、CRM、NOW、SNOW、PLTR、ADBE",
+                "企业IT预算和AI应用变现仍需财报证明，估值对利率敏感。"
+              ],
+              [
+                "走弱",
+                "能源",
+                "弱",
+                "XLE、油气股",
+                "WTI/Brent大跌，直接压制能源收入预期。"
+              ],
+              [
+                "分化",
+                "云服务/AI云",
+                "分化",
+                "MSFT、AMZN、GOOGL、ORCL",
+                "AI云CapEx仍强，但市场开始追问回报率和融资成本。"
+              ]
+            ]
+          },
+          "items": [
+            "结论：今天不是完整“一条龙”AI行情。更准确是“硬件瓶颈层继续有资金，软件/云服务和部分大盘科技掉队”。",
+            "若后续材料、设备、芯片、整机、网络、电力、云、软件都同步走强，才算真正宽度扩散。"
+          ]
+        },
+        {
+          "title": "5. AI产业链分层轮动",
+          "table": {
+            "headers": [
+              "层级",
+              "代表方向",
+              "代表公司/ETF",
+              "当前状态",
+              "怎么看"
+            ],
+            "rows": [
+              [
+                "上游材料",
+                "CCL、PCB材料、ABF载板、电子玻纤、铜箔、封装基板",
+                "TTMI、AMKR及亚洲PCB/载板链",
+                "偏强但美股映射有限",
+                "AI服务器和交换机提高高阶PCB/载板需求；需看订单和报价。"
+              ],
+              [
+                "半导体设备",
+                "EUV、刻蚀、沉积、检测、封装设备",
+                "ASML、AMAT、LRCX、KLAC、TER",
+                "强",
+                "设备强说明市场相信AI扩产还会继续。"
+              ],
+              [
+                "晶圆制造/先进封装",
+                "先进制程、CoWoS、封测",
+                "TSM、INTC、AMKR",
+                "强",
+                "制造和封装是AI产能瓶颈，Intel美国制造叙事仍有热度。"
+              ],
+              [
+                "AI芯片/GPU/ASIC",
+                "GPU、ASIC、AI CPU、交换芯片",
+                "NVDA、AMD、AVGO、MRVL、ARM、QCOM",
+                "分化偏强",
+                "核心主线仍在，但部分大票拖累Nasdaq。"
+              ],
+              [
+                "存储/HBM",
+                "HBM、DRAM、NAND、SSD/HDD",
+                "MU、WDC、STX",
+                "本周最关键",
+                "Micron财报将验证AI存储需求和利润弹性。"
+              ],
+              [
+                "服务器整机/ODM",
+                "AI服务器、机柜、整机交付",
+                "SMCI、DELL、HPE、CLS",
+                "分化",
+                "需求强但毛利率、融资和交付能力决定股价弹性。"
+              ],
+              [
+                "网络/光通信",
+                "800G/1.6T、CPO、以太网交换",
+                "ANET、COHR、LITE、AAOI、CIEN、AVGO、MRVL",
+                "分化",
+                "网络瓶颈存在，但光模块个股波动大，需看订单延续。"
+              ],
+              [
+                "电力/冷却/数据中心",
+                "液冷、UPS、电网、核电、现场电力",
+                "VRT、ETN、GEV、PWR、CEG、VST、NRG、OKLO、SMR",
+                "偏强但拥挤",
+                "Nvidia冷却/水耗方案和AI数据中心建设继续支撑主题。"
+              ],
+              [
+                "云服务/AI云",
+                "Azure、AWS、Google Cloud、Oracle Cloud",
+                "MSFT、AMZN、GOOGL、ORCL",
+                "走弱/分化",
+                "CapEx强但市场更关注回报率、RPO和利润率。"
+              ],
+              [
+                "软件应用/SaaS/AI Agent",
+                "工作流、数据云、安全、AI应用",
+                "CRM、NOW、SNOW、ADBE、PANW、CRWD、DDOG、NET、PLTR",
+                "偏弱",
+                "AI应用变现还没完全说服市场，利率上行时估值承压。"
+              ],
+              [
+                "终端/消费AI",
+                "AI PC、手机、眼镜、机器人",
+                "AAPL、QCOM、ARM、TSLA、META",
+                "分化",
+                "硬件入口有长期叙事，但短期收入兑现节奏不同。"
+              ]
+            ]
+          },
+          "items": [
+            "当下最热：存储/HBM、半导体设备、先进封装、ASIC/互连、电力冷却。",
+            "当下走弱：软件应用、云服务部分大票、能源。",
+            "分化方向：服务器整机、光通信、终端AI。"
+          ]
+        },
+        {
+          "title": "6. 重点个股新闻与异动",
+          "table": {
+            "headers": [
+              "股票/事件",
+              "表现/新闻",
+              "影响"
+            ],
+            "rows": [
+              [
+                "Alphabet、Amazon、Broadcom",
+                "AP称Big Tech弱势拖累Nasdaq；Alphabet、Amazon、Broadcom跌幅明显",
+                "大盘科技不再同步领涨，Nasdaq承压。"
+              ],
+              [
+                "SpaceX",
+                "AP称SpaceX下跌16.4%，IPO后继续回落",
+                "高估值AI/太空叙事进入融资和估值验证期。"
+              ],
+              [
+                "AbbVie / Apogee",
+                "AbbVie宣布约109亿美元收购Apogee，Apogee大涨46.7%，AbbVie上涨6.2%",
+                "医药并购成为非AI方向的事件驱动热点。"
+              ],
+              [
+                "Micron",
+                "本周财报，市场关注HBM、数据中心存储和近1000%利润增速预期",
+                "决定存储/HBM是否继续成为AI链最强分支。"
+              ],
+              [
+                "Qualcomm",
+                "WSJ/IBD关注其潜在大型数据中心客户合同信息",
+                "若确认，AI芯片竞争可能扩展到更多低功耗/定制计算方案。"
+              ],
+              [
+                "Nvidia",
+                "MarketWatch称SOX今年翻倍但NVDA年内涨幅在指数内垫底",
+                "市场从单一GPU瓶颈转向更多AI瓶颈层。"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "7. 明日交易计划/观察清单",
+          "table": {
+            "headers": [
+              "观察点",
+              "关键位/事件",
+              "为什么重要"
+            ],
+            "rows": [
+              [
+                "10Y美债",
+                "4.50%",
+                "上破会压制QQQ、IGV和高估值AI应用。"
+              ],
+              [
+                "2Y美债",
+                "4.23%附近",
+                "短端继续上行说明Fed加息预期升温。"
+              ],
+              [
+                "WTI/Brent",
+                "WTI 73.86、Brent 77.52",
+                "若继续下行利好通胀预期；若反弹说明地缘风险回归。"
+              ],
+              [
+                "Micron财报",
+                "HBM收入、毛利率、数据中心指引",
+                "验证存储/HBM是否成为AI链下一条主线。"
+              ],
+              [
+                "SOX/SMH",
+                "能否延续盘中强势",
+                "判断AI硬件修复是否压过Big Tech压力。"
+              ],
+              [
+                "IGV/软件",
+                "能否止跌",
+                "软件如果继续弱，AI应用层仍未被资金认可。"
+              ],
+              [
+                "七巨头",
+                "GOOGL、AMZN、MSFT、META、NVDA",
+                "判断Nasdaq是否继续被大票拖累。"
+              ],
+              [
+                "AI电力冷却",
+                "VRT、GEV、ETN、CEG、VST",
+                "观察AI基础设施是否继续强于软件。"
+              ]
+            ]
+          },
+          "items": [
+            "明天重点关注10-20只：NVDA、MU、AVGO、MRVL、TSM、ASML、AMAT、KLAC、QCOM、SMCI、DELL、ANET、VRT、GEV、CEG、MSFT、AMZN、GOOGL、CRM、PLTR。"
+          ]
+        },
+        {
+          "title": "8. 风险提示",
+          "table": {
+            "headers": [
+              "风险维度",
+              "当前状态",
+              "风险等级"
+            ],
+            "rows": [
+              [
+                "宏观利率",
+                "2Y和10Y同步上行，市场重新定价加息风险",
+                "高"
+              ],
+              [
+                "市场宽度",
+                "Dow/IWM上涨但Nasdaq跌，宽度改善不均衡",
+                "中"
+              ],
+              [
+                "AI拥挤度",
+                "SOX年内涨幅巨大，存储/Intel/ARM/MRVL等弹性方向拥挤",
+                "中高"
+              ],
+              [
+                "财报风险",
+                "Micron、FedEx、Darden等将验证AI需求与消费/企业需求",
+                "中高"
+              ],
+              [
+                "地缘风险",
+                "油价下跌基于谈判进展，但中东风险仍可能反复",
+                "中高"
+              ],
+              [
+                "技术面",
+                "S&P高位回落但未破趋势，Nasdaq对利率更敏感",
+                "中"
+              ],
+              [
+                "流动性",
+                "三巫日后成交和承接需继续验证",
+                "中"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "9. 最终结论",
+          "items": [
+            "6月22日不是简单risk-off，而是结构分化：Dow和小盘上涨，Nasdaq被Big Tech拖累。",
+            "油价大跌降低通胀尾部风险，但美债收益率上行让市场重新担心Fed加息，这对软件和高估值成长股尤其不友好。",
+            "当前市场阶段：板块轮动。AI主线仍在，但从“七巨头/GPU单点”切到“存储、设备、先进封装、ASIC互连、电力冷却”等瓶颈层。",
+            "操作倾向上，不适合把所有AI票当成同一方向追；更适合分层看强弱，等待Micron财报、PCE、10Y 4.50%和软件止跌信号。",
+            "最重要5个信号：10Y是否上破4.50%；Micron财报是否确认HBM；SOX/SMH是否继续强于QQQ；IGV能否止跌；WTI/Brent是否维持低位。"
+          ]
+        }
+      ],
+      "calendar": [
+        {
+          "date": "2026-06-23",
+          "title": "盘前/盘中关注：美债与油价",
+          "note": "观察10Y 4.50%、2Y 4.23%、WTI/Brent是否延续低位。"
+        },
+        {
+          "date": "2026-06-23 至 2026-06-25",
+          "title": "重点财报：Micron、FedEx、Darden等",
+          "note": "Micron验证HBM和AI存储，FedEx/Darden观察经济和消费韧性。"
+        },
+        {
+          "date": "2026-06-25",
+          "title": "PCE通胀数据",
+          "note": "决定Fed加息预期是否进一步升温。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "AP｜How major US stock indexes fared Monday 6/22/2026",
+          "url": "https://apnews.com/article/15484e7e5b168601a3f2c0061eb3ffd1"
+        },
+        {
+          "label": "AP｜US stocks drift after oil prices ease and Big Tech stocks fall",
+          "url": "https://apnews.com/article/690222f2e7005faf72b76daf46768b4d"
+        },
+        {
+          "label": "MarketWatch｜Stocks end mostly lower as U.S. crude oil settles below $74",
+          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-investors-us-iran-peace-talks-brent-crude-declines/card/stocks-end-mostly-lower-even-as-u-s-crude-oil-settles-below-74-a-barrel-wXgtILGKxvziAGybE5py"
+        },
+        {
+          "label": "MarketWatch｜U.S. oil prices end below $74 after Iran sanctions pause",
+          "url": "https://www.marketwatch.com/story/u-s-oil-prices-fall-below-74-a-barrel-on-60-day-pause-on-iranian-oil-sanctions-0b7c7130"
+        },
+        {
+          "label": "Barron’s｜Treasury yields rise despite oil-price drop",
+          "url": "https://www.barrons.com/livecoverage/stock-market-news-today-062226/card/treasury-yields-rise-defy-fall-in-oil-prices-np8XnEXv5p5eeG8ILFSl"
+        },
+        {
+          "label": "MarketWatch｜2-year Treasury yield highest settlement since Feb 2025",
+          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-investors-us-iran-peace-talks-brent-crude-declines/card/2-year-treasury-yield-hits-highest-settlement-since-february-2025-as-yield-curve-flattens-35uNfQk6m37gVKipRvKd"
+        },
+        {
+          "label": "WSJ｜BofA now sees possible Fed rate hikes",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-06-22-2026/card/could-the-fed-raise-rates-three-times-this-year-bank-of-america-says-yes--1foPJ2Bon17dB700YAwv"
+        },
+        {
+          "label": "MarketWatch｜Major chip index doubled this year despite Nvidia lagging",
+          "url": "https://www.marketwatch.com/story/a-major-chip-index-has-doubled-this-year-despite-nvidia-ranking-dead-last-f049eb5e"
+        },
+        {
+          "label": "MarketWatch｜Semiconductor names strong early Monday",
+          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-investors-us-iran-peace-talks-brent-crude-declines/card/monday-shaping-up-to-be-another-big-day-for-semiconductor-names-BafFc6UzpH3CW3d5EbTw"
+        }
+      ]
+    },
+    {
       "date": "2026-06-21",
       "updatedAt": "2026-06-22 09:05 北京时间",
       "marketSession": "2026-06-21 周日夜盘期货；最新完整美股现金交易日仍为2026-06-18",
