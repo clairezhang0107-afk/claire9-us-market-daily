@@ -86,6 +86,10 @@ function renderSources(report) {
     .join("");
 }
 
+function reportKey(report) {
+  return report.id || `${report.date}-${report.status || ""}`.replace(/\s+/g, "-");
+}
+
 function renderReport(report) {
   const node = homeTemplate.content.cloneNode(true);
   node.querySelector(".market-tape").innerHTML = renderMarketTape(report);
@@ -138,7 +142,7 @@ function renderArchive() {
       ? reports
           .map(
             (report) => `
-              <a class="card archive-card" href="#/report/${report.date}">
+              <a class="card archive-card" href="#/report/${reportKey(report)}">
                 <p class="eyebrow">${formatDate(report.date)}</p>
                 <h2>${report.title}</h2>
                 <p>${report.summary}</p>
@@ -186,7 +190,7 @@ function renderRoute() {
     return;
   }
   if (route === "report") {
-    const report = state.reports.find((item) => item.date === id);
+    const report = state.reports.find((item) => reportKey(item) === id || item.date === id);
     report ? renderReport(report) : (app.innerHTML = `<div class="empty">没有找到这一天的日报。</div>`);
     return;
   }
