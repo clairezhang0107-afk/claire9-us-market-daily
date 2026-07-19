@@ -1,6 +1,558 @@
 {
   "reports": [
     {
+      "id": "2026-07-17-close",
+      "date": "2026-07-17",
+      "updatedAt": "2026-07-18 08:57 北京时间",
+      "marketSession": "美股2026-07-17现金市场收盘；北京时间2026-07-18盘后/收盘初版",
+      "status": "盘后/收盘初版",
+      "title": "AI芯片抛售加深，Nasdaq领跌；油价跳涨放大通胀和地缘风险",
+      "summary": "7月17日美股明显收跌，核心拖累仍是AI与半导体高位交易继续退潮。AP数据显示，S&P 500收跌1.0%至7,475.69，Dow跌0.8%至52,146.42，Nasdaq跌1.4%至25,520.24，Russell 2000跌0.4%至2,962.22；全周S&P 500跌1.6%、Nasdaq跌2.9%，说明压力集中在成长和AI权重。芯片链继续成为市场最弱环节，The Guardian称PHLX半导体指数当日跌4.8%、月内跌约20%并进入熊市区间，Nvidia、AMD、Arm、Applied Materials等承压。宏观层面，Brent原油因美国与伊朗紧张升级大涨4.6%至88.10美元，油价重新抬升通胀担忧；同时Netflix财报后大跌、Intuitive Surgical下跌，进一步压制成长股风险偏好。",
+      "takeaway": "今日市场状态：AI硬件利好钝化转为抛售深化，半导体进入技术性熊市压力区；资金偏向能源、金融、医疗等相对防御和价值方向，市场不是完整risk-on。",
+      "tags": [
+        "盘后收盘初版",
+        "AI芯片抛售",
+        "半导体熊市",
+        "Nasdaq领跌",
+        "油价跳涨",
+        "地缘风险",
+        "Netflix财报",
+        "Moonshot AI",
+        "板块轮动",
+        "AI产业链分层"
+      ],
+      "risks": [
+        "半导体指数月内跌幅接近20%，AI硬件拥挤交易继续去杠杆。",
+        "Brent原油升至约88美元，油价冲击可能重新推高通胀和Fed压力。",
+        "Nasdaq全周跑输Dow，说明AI和成长股仍是风险源。",
+        "强AI叙事受到中国Moonshot Kimi K3竞争和AI回报率质疑冲击。",
+        "下周Google、Tesla、AMD、Intel、GE Vernova等财报/事件密集，单股风险可能继续放大。"
+      ],
+      "indices": [
+        {
+          "name": "S&P 500",
+          "close": "7,475.69",
+          "change": "-1.0%"
+        },
+        {
+          "name": "Dow Jones",
+          "close": "52,146.42",
+          "change": "-0.8%"
+        },
+        {
+          "name": "Nasdaq",
+          "close": "25,520.24",
+          "change": "-1.4%"
+        },
+        {
+          "name": "Russell 2000",
+          "close": "2,962.22",
+          "change": "-0.4%"
+        },
+        {
+          "name": "SOX半导体",
+          "close": "PHLX半导体指数",
+          "change": "约-4.8%"
+        },
+        {
+          "name": "Brent原油",
+          "close": "$88.10",
+          "change": "+4.6%"
+        }
+      ],
+      "sections": [
+        {
+          "title": "0. 今日一句话总结",
+          "items": [
+            "美股7月17日继续收跌，Nasdaq领跌，AI和芯片股是主要拖累。",
+            "AP显示S&P 500跌1.0%、Dow跌0.8%、Nasdaq跌1.4%，全周Nasdaq跌2.9%，成长股压力最大。",
+            "半导体卖压进一步恶化，PHLX半导体指数当日跌约4.8%，月内跌幅约20%，进入技术性熊市压力区。",
+            "油价因美伊紧张升级大涨，Brent至约88.10美元，市场同时面对AI估值回落和通胀风险回升。",
+            "今日市场状态：AI硬件抛售深化，资金从高beta科技切向能源、金融、医疗等相对抗跌方向。"
+          ]
+        },
+        {
+          "title": "1. 大盘表现总览",
+          "table": {
+            "headers": [
+              "指数/资产",
+              "收盘/价格",
+              "涨跌幅",
+              "技术状态",
+              "解读"
+            ],
+            "rows": [
+              [
+                "Dow Jones",
+                "52,146.42",
+                "-0.8%",
+                "高位回落但强于Nasdaq",
+                "传统蓝筹相对抗跌。"
+              ],
+              [
+                "S&P 500",
+                "7,475.69",
+                "-1.0%",
+                "跌破短线强势节奏",
+                "AI权重拖累指数。"
+              ],
+              [
+                "Nasdaq Composite",
+                "25,520.24",
+                "-1.4%",
+                "领跌",
+                "AI和芯片估值压力集中释放。"
+              ],
+              [
+                "Russell 2000",
+                "2,962.22",
+                "-0.4%",
+                "相对抗跌",
+                "小盘不是主要卖压源。"
+              ],
+              [
+                "SOX/PHLX半导体",
+                "指数口径",
+                "约-4.8%",
+                "进入熊市压力区",
+                "芯片成为全市场最弱主线。"
+              ],
+              [
+                "Brent原油",
+                "$88.10",
+                "+4.6%",
+                "突破风险线",
+                "油价上行推升通胀担忧。"
+              ],
+              [
+                "VIX",
+                "暂无可靠收盘口径",
+                "暂无可靠数据",
+                "避险升温",
+                "用指数跌幅和油价替代判断。"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "2. 盘中走势复盘",
+          "items": [
+            "盘前：AI芯片继续承压，Netflix财报后大跌压制成长股情绪，油价因中东风险上行。",
+            "开盘后：Nasdaq和半导体延续卖压，市场继续交易AI估值和CapEx回报的不确定性。",
+            "午盘：卖压从个别AI龙头扩散到半导体设备、存储、先进制造和部分高估值成长股。",
+            "尾盘：三大指数均收跌，Nasdaq跌幅最大；Dow和小盘相对抗跌，显示不是全面普跌，而是结构性科技去风险。",
+            "交易性质：这是AI硬件sell the news之后的抛售深化，同时伴随资金轮动到能源、金融、医疗和防御方向。"
+          ]
+        },
+        {
+          "title": "3. 宏观环境",
+          "table": {
+            "headers": [
+              "变量",
+              "最新状态",
+              "市场含义"
+            ],
+            "rows": [
+              [
+                "油价",
+                "AP称Brent上涨4.6%至88.10美元",
+                "通胀风险回升，利空长久期科技估值。"
+              ],
+              [
+                "美债收益率",
+                "AP提到债市波动；精确收盘暂无可靠口径",
+                "若10Y重新上行，将继续压制QQQ/SMH/IGV。"
+              ],
+              [
+                "美元/黄金/加密",
+                "暂无可靠统一收盘口径",
+                "不硬编；当前风险判断主要来自油价和股票内部。"
+              ],
+              [
+                "消费者信心",
+                "AP称消费者信心意外改善",
+                "经济韧性不是问题，问题在AI估值和油价。"
+              ],
+              [
+                "Fed预期",
+                "暂无可靠CME盘后概率表",
+                "油价上行会降低市场对宽松的想象空间。"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "4. 当前热点板块与走弱板块总览",
+          "table": {
+            "headers": [
+              "分类",
+              "细分板块",
+              "代表标的",
+              "状态",
+              "一句话判断"
+            ],
+            "rows": [
+              [
+                "最热",
+                "能源/油气",
+                "XLE、油服、综合能源",
+                "强",
+                "油价跳涨带动能源成为少数明确受益方向。"
+              ],
+              [
+                "最热",
+                "金融/支付/保险",
+                "XLF、JPM、BAC、V、MA",
+                "相对强",
+                "AI退潮时资金偏向现金流和利率敏感价值。"
+              ],
+              [
+                "最热",
+                "医疗/防御成长",
+                "XLV、UNH、LLY、ABT",
+                "相对强",
+                "科技卖压下承接避险和业绩确定性资金。"
+              ],
+              [
+                "分化",
+                "AI云/软件应用",
+                "MSFT、AMZN、GOOGL、ORCL、CRM、NOW",
+                "分化",
+                "AI应用并未全面接棒，仍需财报验证变现。"
+              ],
+              [
+                "分化",
+                "AI电力/数据中心",
+                "VRT、GEV、ETN、CEG、VST、PWR",
+                "分化偏弱",
+                "长期逻辑仍在，但受AI CapEx质疑牵连。"
+              ],
+              [
+                "走弱",
+                "AI芯片/GPU/ASIC",
+                "NVDA、AMD、AVGO、MRVL、ARM",
+                "最弱",
+                "高估值与AI回报率担忧集中释放。"
+              ],
+              [
+                "走弱",
+                "半导体设备/制造",
+                "ASML、AMAT、LRCX、KLAC、TSM",
+                "弱",
+                "即便订单强，市场也在降低估值倍数。"
+              ],
+              [
+                "走弱",
+                "存储/HBM",
+                "MU、SNDK、WDC、STX",
+                "弱",
+                "此前领涨环节进入获利了结。"
+              ],
+              [
+                "走弱",
+                "流媒体/高估值成长",
+                "NFLX、部分互联网成长股",
+                "弱",
+                "Netflix指引拖累成长风险偏好。"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "5. AI产业链分层轮动",
+          "table": {
+            "headers": [
+              "产业链层级",
+              "代表方向",
+              "代表公司/ETF",
+              "当前强弱",
+              "为什么涨/跌",
+              "交易含义"
+            ],
+            "rows": [
+              [
+                "上游材料",
+                "CCL、PCB材料、ABF载板、电子玻纤、铜箔、封装基板",
+                "TTMI、AMKR、亚洲载板/PCB链",
+                "待验证",
+                "美国盘面未把材料链当主线买",
+                "若下周不能抗跌，说明AI上游也被估值压制。"
+              ],
+              [
+                "半导体设备",
+                "EUV、刻蚀、沉积、检测、先进封装设备",
+                "ASML、AMAT、LRCX、KLAC",
+                "走弱",
+                "PHLX半导体指数大跌，设备也被拖累",
+                "强订单不足以抵消估值重定价。"
+              ],
+              [
+                "晶圆制造/先进封装",
+                "先进制程、CoWoS、封测",
+                "TSM、INTC、AMKR",
+                "走弱/分化",
+                "AI制造预期过满，亚洲科技也下跌",
+                "TSMC强基本面未转化为股价保护。"
+              ],
+              [
+                "AI芯片/GPU/ASIC",
+                "GPU、ASIC、AI CPU、互连芯片",
+                "NVDA、AMD、AVGO、MRVL、ARM",
+                "最弱",
+                "AI回报率和估值担忧主导",
+                "主线从领涨变成风险源。"
+              ],
+              [
+                "存储/HBM",
+                "HBM、DRAM、NAND、SSD/HDD",
+                "MU、SNDK、WDC、STX",
+                "走弱",
+                "前期最拥挤，资金兑现",
+                "HBM仍有产业逻辑，但交易层面需先止跌。"
+              ],
+              [
+                "服务器整机/ODM",
+                "AI服务器、机柜、整机组装",
+                "SMCI、DELL、HPE、CLS",
+                "分化偏弱",
+                "芯片和存储跌会压服务器链风险偏好",
+                "关注毛利率和订单能否稳住。"
+              ],
+              [
+                "网络/光通信",
+                "交换机、以太网、800G/1.6T、光模块、CPO",
+                "ANET、COHR、LITE、AAOI、CIEN",
+                "分化偏弱",
+                "没有成为资金避风港",
+                "若AI集群订单强，需观察是否率先止跌。"
+              ],
+              [
+                "电力/冷却/数据中心基础设施",
+                "液冷、UPS、电网、核电、现场电力",
+                "VRT、ETN、GEV、PWR、CEG、VST、OKLO、SMR",
+                "分化",
+                "长期需求强但受CapEx质疑影响",
+                "只有订单/合同继续超预期才能脱离半导体拖累。"
+              ],
+              [
+                "云服务/AI云",
+                "Azure、AWS、Google Cloud、Oracle Cloud",
+                "MSFT、AMZN、GOOGL、ORCL",
+                "分化",
+                "市场担心巨额AI资本开支压自由现金流",
+                "下周Google财报是关键验证。"
+              ],
+              [
+                "软件应用/SaaS/AI Agent",
+                "数据云、安全、Agent、企业软件",
+                "CRM、NOW、SNOW、ADBE、PANW、CRWD、DDOG、NET、PLTR",
+                "待验证",
+                "硬件退潮但应用还没统一补涨",
+                "若IGV跑赢SMH，才算应用层接棒。"
+              ],
+              [
+                "终端/消费AI",
+                "AI PC、手机、车、机器人",
+                "AAPL、QCOM、ARM、TSLA、META",
+                "弱/分化",
+                "终端需求和AI变现仍不清晰",
+                "Tesla和Apple链需等财报/交付验证。"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "6. 重点个股与新闻",
+          "table": {
+            "headers": [
+              "股票/事件",
+              "表现/新闻",
+              "影响"
+            ],
+            "rows": [
+              [
+                "NVDA",
+                "AP称Nvidia是指数下跌重要拖累之一",
+                "AI主线锚继续承压。"
+              ],
+              [
+                "AMD/ARM/AMAT",
+                "WSJ和Guardian均提到芯片股显著下跌",
+                "AI硬件卖压扩散到GPU、架构和设备。"
+              ],
+              [
+                "NFLX",
+                "财报后下跌，WSJ称股价约跌11%",
+                "通信服务和高估值成长受压。"
+              ],
+              [
+                "Intuitive Surgical",
+                "AP称财报后下跌",
+                "医疗内部也不是全面强，个股财报分化。"
+              ],
+              [
+                "SpaceX",
+                "AP称下跌约5.4%，Starship测试发射中止",
+                "高估值成长和融资压力仍被市场盯住。"
+              ],
+              [
+                "Moonshot AI / Kimi K3",
+                "AP称中国AI模型竞争加剧担忧",
+                "市场担心美国AI溢价被压缩。"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "7. 财报与下周观察",
+          "table": {
+            "headers": [
+              "事件",
+              "市场关注点",
+              "可能影响"
+            ],
+            "rows": [
+              [
+                "Google/Alphabet财报",
+                "Gemini、云AI收入、CapEx和自由现金流",
+                "影响GOOGL、MSFT、AMZN、AI软件。"
+              ],
+              [
+                "Tesla财报/交付后续",
+                "交付、毛利、Robotaxi/机器人支出",
+                "影响TSLA和终端AI风险偏好。"
+              ],
+              [
+                "AMD AI事件/财报预期",
+                "MI系列、AI GPU订单、毛利率",
+                "影响AMD、NVDA、SMH。"
+              ],
+              [
+                "Intel财报",
+                "Foundry、美国制造、AI PC需求",
+                "影响INTC、设备、半导体政策链。"
+              ],
+              [
+                "GE Vernova财报",
+                "电网、电力设备、数据中心电力订单",
+                "影响GEV、VRT、ETN、PWR。"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "8. 明日交易计划/观察清单",
+          "items": [
+            "SMH/SOXX是否继续破位：判断芯片熊市压力是否扩大。",
+            "NVDA能否止跌：AI主线能不能先稳住锚。",
+            "Brent是否守在85美元上方：油价若继续冲，会压制成长估值。",
+            "Google/Tesla/AMD/Intel财报前市场是否继续降仓位：影响下周风险偏好。",
+            "IGV软件是否跑赢SMH：判断AI应用能否接棒硬件。",
+            "能源、金融、医疗是否持续跑赢：判断防御/价值轮动是否成为新主线。"
+          ]
+        },
+        {
+          "title": "9. 风险提示",
+          "table": {
+            "headers": [
+              "风险维度",
+              "当前状态",
+              "风险等级"
+            ],
+            "rows": [
+              [
+                "宏观利率/油价",
+                "油价大涨带来通胀回升风险",
+                "高"
+              ],
+              [
+                "市场宽度",
+                "Nasdaq和芯片领跌，Dow相对抗跌",
+                "中高"
+              ],
+              [
+                "AI拥挤度",
+                "半导体月内跌约20%，去杠杆仍在",
+                "高"
+              ],
+              [
+                "财报风险",
+                "Netflix已显示高估值成长对指引敏感",
+                "中高"
+              ],
+              [
+                "地缘风险",
+                "美伊紧张和油运风险推升Brent",
+                "高"
+              ],
+              [
+                "技术面",
+                "SOX进入熊市压力区，QQQ可能继续承压",
+                "高"
+              ],
+              [
+                "流动性",
+                "科技股集中卖压可能触发被动减仓",
+                "中高"
+              ]
+            ]
+          }
+        },
+        {
+          "title": "10. 最终结论",
+          "items": [
+            "7月17日市场结论：美股下跌的主因是AI和半导体抛售深化，油价跳涨则把宏观风险重新拉回桌面。",
+            "当前市场阶段：风险偏好下降 + 板块轮动。",
+            "中性操作观察：不适合无脑抄底AI硬件，先等SMH/SOXX和NVDA止跌；能源、金融、医疗的相对强势需要继续观察是否能延续。",
+            "最值得关注的5个信号：SOX是否继续创新低；Brent是否突破90美元；NVDA/AMD/AVGO能否止跌；Google/Tesla/AMD/Intel财报是否稳定预期；IGV软件是否能跑赢SMH。"
+          ]
+        }
+      ],
+      "calendar": [
+        {
+          "date": "2026-07-20",
+          "title": "下周开盘：AI芯片承接验证",
+          "note": "看SMH/SOXX、NVDA、AMD、AVGO、MRVL、AMAT能否止跌。"
+        },
+        {
+          "date": "未来1-3个交易日",
+          "title": "Google、Tesla、AMD、Intel等事件前定位",
+          "note": "市场会提前降低高估值成长仓位，财报前波动可能加大。"
+        },
+        {
+          "date": "持续观察",
+          "title": "油价与中东风险",
+          "note": "Brent若继续靠近90美元，通胀和Fed压力会重新上升。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "AP｜How major US stock indexes fared Friday 7/17/2026",
+          "url": "https://apnews.com/article/5e44034ea86fa8d9c73184f3559e74a2"
+        },
+        {
+          "label": "AP｜The sell-off for AI stars worsens, while oil prices keep jumping",
+          "url": "https://apnews.com/article/65449e9565fba441a617f9517e097f5a"
+        },
+        {
+          "label": "MarketWatch｜Stock Market on July 17, 2026: chip stocks enter bear market",
+          "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-strikes-iran-sixth-night-tech-sell-off"
+        },
+        {
+          "label": "WSJ｜Stock Market Today: Dow, S&P 500, Nasdaq July 17 2026",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-17-2026"
+        },
+        {
+          "label": "The Guardian｜Global tech stocks fall as chip sell-off deepens",
+          "url": "https://www.theguardian.com/business/live/2026/jul/17/global-tech-stocks-fall-chip-sell-off-burberry-sales-boost-economy-latest-news"
+        },
+        {
+          "label": "Investopedia｜5 Things to Know Before the Stock Market Opens on Friday July 17 2026",
+          "url": "https://www.investopedia.com/5-things-to-know-before-the-stock-market-opens-on-friday-july-17-2026-12021320"
+        }
+      ]
+    },
+    {
       "id": "2026-07-16-intraday",
       "date": "2026-07-16",
       "updatedAt": "2026-07-16 23:00 北京时间",
